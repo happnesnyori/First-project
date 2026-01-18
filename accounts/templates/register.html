@@ -8,12 +8,8 @@
 <body>
 
 <div class="container">
-
-
     <form method="post">
-
         <h2>Register</h2>
-
         {% csrf_token %}
         <input type="text" name="username" placeholder="Username" required>
         <input type="password" name="password" placeholder="Password" required>
